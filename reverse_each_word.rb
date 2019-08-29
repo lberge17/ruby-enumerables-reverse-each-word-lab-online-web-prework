@@ -3,4 +3,4 @@ def reverse_each_word(sentence)
   puts new.collect {|word| word.reverse}.join(" ")
 end
 
-reverse_each_word("I like you.")
+reverse_each_word("Hello there, and how are you?")
