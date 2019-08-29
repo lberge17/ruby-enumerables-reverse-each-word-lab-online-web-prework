@@ -2,7 +2,8 @@ def reverse_each_word(sentence)
   array = []
   #sentence.chars.reverse
   sentence.split.map 
-  {|word| word.reverse}
+  {|word| word.reverse}.join(" ")
+end
 end
 
 
